@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isitar.Simplex.PrimalSimplex", "Isitar.Simplex.PrimalSimplex\Isitar.Simplex.PrimalSimplex.csproj", "{2EB13690-489C-4C1A-8F15-0138AE518941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isitar.Simplex.Demo", "Isitar.Simplex.Demo\Isitar.Simplex.Demo.csproj", "{73A85D8A-FF40-4EB5-82DA-2A67ABCD432C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isitar.Simplex.Common", "Isitar.Simplex.Common\Isitar.Simplex.Common.csproj", "{73E62C10-46B8-409A-9754-91EB0D48FC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isitar.Simplex.Common.Tests", "Isitar.Simplex.Common.Tests\Isitar.Simplex.Common.Tests.csproj", "{4B53EB2C-4185-48CF-9AC8-7302AA81FEBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB13690-489C-4C1A-8F15-0138AE518941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB13690-489C-4C1A-8F15-0138AE518941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB13690-489C-4C1A-8F15-0138AE518941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB13690-489C-4C1A-8F15-0138AE518941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A85D8A-FF40-4EB5-82DA-2A67ABCD432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A85D8A-FF40-4EB5-82DA-2A67ABCD432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A85D8A-FF40-4EB5-82DA-2A67ABCD432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A85D8A-FF40-4EB5-82DA-2A67ABCD432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E62C10-46B8-409A-9754-91EB0D48FC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E62C10-46B8-409A-9754-91EB0D48FC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E62C10-46B8-409A-9754-91EB0D48FC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E62C10-46B8-409A-9754-91EB0D48FC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B53EB2C-4185-48CF-9AC8-7302AA81FEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B53EB2C-4185-48CF-9AC8-7302AA81FEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B53EB2C-4185-48CF-9AC8-7302AA81FEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B53EB2C-4185-48CF-9AC8-7302AA81FEBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
